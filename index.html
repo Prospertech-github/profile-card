@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
     <title>Prosper's Profile Card</title>
 </head>
@@ -18,23 +18,41 @@
             </div>
 
             <div class="textCtn">
-                <h3 data-testid="fullName">Prosper Ikechukwu</h3>
-                <p data-testid="jobTitle">Front-end developer</p>
-                <p data-testid="shortBio"></p>
-                <p data-testid="currrentLocation">Lagos, Nigeria</p>
+                <div class="contactDetails">
+                    <h3 data-testid="fullName">Prosper Ikechukwu</h3>
+                    <p data-testid="jobTitle">Front-end developer</p>
+                    <p data-testid="emailAddress">Front-end developer</p>
+                    <p data-testid="currrentLocation">Lagos, Nigeria</p>
+                </div>
+                <p data-testid="shortBio">
+                    A passionate Front-end developer dedicated to crafting web applications that solve real-world 
+                    problems and generate value.
+                    I'm also committed to mentoring and training newcomers in the tech industry, helping to cultivate the next
+                    generation of developers.
+                </p>
             </div>
 
-            <ul>
-                <li><a href="https://www.github.com" target="_blank"><button class="it"><i
-                                    class="fab fa-github"></i>GitHub</button></a></li>
-                <li><a href="https://frontendmentor.io" target="_blank"><button class="tor">Frontend
-                                Mentor</button></a></li>
-                <li><a href="https://www.linkedin.com" target="_blank"><button class="in"><i
-                                    class="fab fa-linkedin-in"></i>LinkedIn</button></a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><button class="twit"><i
-                                    class="fab fa-twitter-square"></i>Twitter</button></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><button class="inst"><i
-                                    class="fab fa-instagram"></i>Instagram</button></a></li>
+            <ul class="socialLinks">
+                <li>
+                    <a href="https://www.github.com" target="_blank">
+                        <i class="fa-brands fa-github"></i>GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>Instagram
+                    </a>
+                </li>
             </ul>
 
 
@@ -43,19 +61,3 @@
 </body>
 
 </html>
-
-
-
-
-<div class="empty">
-    <div id="randall">
-
-        <div id="textctn">
-            <h3>Jessica Randall</h>
-            <p>London, United Kingdom</p>
-            <p>"Front-end developer and avid reader."</p>
-
-            
-        </div>
-    </div>
-</div>
