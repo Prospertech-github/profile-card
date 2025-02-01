@@ -37,6 +37,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
 }
 
 .card{
@@ -119,4 +120,14 @@ main{
 }
 #time{
     color: #c5f82a;
+}
+
+@media screen and (max-width: 540px) {
+    main{
+        padding: 5rem 2.4rem;
+
+    }
+    .card{
+        height: 100%;
+    }
 }
