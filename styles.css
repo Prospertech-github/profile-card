@@ -110,3 +110,13 @@ main{
 .socialLinks li > a > i{
     margin-right: 2rem;
 }
+
+.date{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 3rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+#time{
+    color: #c5f82a;
+}

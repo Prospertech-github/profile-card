@@ -56,10 +56,22 @@
             </ul>
 
             <div class="date">
-
+                <p data-testid="currentTimeUTC" id="time"></p>
             </div>
         </div>
     </main>
+
+    <script>
+        setInterval(setCurrentTime, 1000);
+        
+        function setCurrentTime(){
+            const timeParagraph = document.getElementById('time');
+            const time = new Date()
+            let utcFormat = time.toLocaleTimeString();
+            timeParagraph.textContent = utcFormat
+        }
+
+    </script>
 </body>
 
 </html>
